@@ -6,8 +6,9 @@ export default function CustomCard(props) {
     return (
         <MyDiv>
             <Box className={`${props.className} card-box`}>
-                <Heading as="h2" className='text_semibold font_family text_lg'>{props.title}</Heading>
-                <Heading as="h3" mt={2} className='text_semibold font_family text_lg'>{props.value}</Heading>
+                <Heading as="h2" className='text_semibold font_family text_xl'>{props.title}</Heading>
+                <Heading as="h3" mt={2} className='text_bold font_family text_lg'>{props.value}</Heading>
+                <Heading as="h3" mt={2} className='text_semibold font_family text_lg'>{props.label}</Heading>
             </Box>
         </MyDiv>
     )
