@@ -8,6 +8,7 @@ import { getItem } from '../../utilities/authUtils'
 
 const Login = lazy(() => import('../../views/Login'))
 const Dashboard = lazy(() => import('../../views/Dashboard'))
+const Kyc = lazy(() => import('../../views/Kyc'))
 const Customers = lazy(() => import('../../views/Customers'))
 
 const AppRoutes = () => {
@@ -26,6 +27,7 @@ const AppRoutes = () => {
       <Route path={routesNames.LOGIN} element={<Suspense fallback={<Loader />}><Login /></Suspense>} />
       <Route element={<PrivateRoute route={routesNames.LOGIN} />}>
         <Route path={routesNames.DASHBOARD} element={<Suspense fallback={<Loader />}><AppLayout><Dashboard /></AppLayout></Suspense>} />
+        <Route path={routesNames.KYC} element={<Suspense fallback={<Loader />}><AppLayout><Kyc /></AppLayout></Suspense>} />
         <Route path={routesNames.CUSTOMERS} element={<Suspense fallback={<Loader />}><AppLayout><Customers /></AppLayout></Suspense>} />
       </Route>
     </Routes>

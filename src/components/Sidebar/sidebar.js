@@ -17,6 +17,13 @@ const menus = [
   },
   {
     id: 2,
+    menuName: 'KYC',
+    link: routesNames.KYC,
+    menuIcon: DashboardIcon,
+    menuIconActive: DashboardWhiteIcon,
+  },
+  {
+    id: 3,
     menuName: 'Customers',
     link: routesNames.CUSTOMERS,
     menuIcon: DashboardIcon,
