@@ -94,6 +94,28 @@ color: #000!important;
   color: #4E75FF!important;
   border: 1px solid #4E75FF;
 }
+.btn_red {
+  background-color: #FF3B30!important;
+  border-radius: 4px!important;
+  color: #fff!important;
+  border: 1px solid #FF3B30;
+}
+.btn_red:hover {
+  background-color: transparent!important;
+  color: #FF3B30!important;
+  border: 1px solid #FF3B30;
+}
+.btn_green {
+  background-color: #186D30!important;
+  border-radius: 4px!important;
+  color: #fff!important;
+  border: 1px solid #186D30;
+}
+.btn_green:hover {
+  background-color: transparent!important;
+  color: #186D30!important;
+  border: 1px solid #186D30;
+}
 .chakra-alert__title {
   font-size: 16px;
   font-weight: 500 !important;

@@ -29,6 +29,13 @@ const menus = [
     menuIcon: DashboardIcon,
     menuIconActive: DashboardWhiteIcon,
   },
+  {
+    id: 4,
+    menuName: 'Loan Applications',
+    link: routesNames.LOANAPPLICATIONS,
+    menuIcon: DashboardIcon,
+    menuIconActive: DashboardWhiteIcon,
+  },
 ]
 
 export default function Sidebar() {
