@@ -19,34 +19,34 @@ export default function LoanApplicationTable() {
                 </Thead>
                 <Tbody>
                     <Tr>
-                        <Td className='font_dark font_family text_book text_md'>LN-2025-001</Td>
-                        <Td className='font_dark font_family text_book text_md'>Divyansh Garg</Td>
-                        <Td className='font_dark font_family text_book text_md'>Business Loan</Td>
-                        <Td className='font_dark font_family text_book text_md'>₹500,000</Td>
-                        <Td className='font_light font_family text_book text_md'>
+                        <Td className='font_dark font_family text_medium text_md col-space'>LN-2025-001</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>Divyansh Garg</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>Business Loan</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>₹500,000</Td>
+                        <Td className='font_light font_family text_medium text_md col-space'>
                             <Text className='pending status-label'>Pending</Text>
                         </Td>
-                        <Td className='font_dark font_family text_book text_md'>N/A</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>N/A</Td>
                     </Tr>
                     <Tr>
-                        <Td className='font_dark font_family text_book text_md'>LN-2025-001</Td>
-                        <Td className='font_dark font_family text_book text_md'>Divyansh Garg</Td>
-                        <Td className='font_dark font_family text_book text_md'>Business Loan</Td>
-                        <Td className='font_dark font_family text_book text_md'>₹500,000</Td>
-                        <Td className='font_light font_family text_book text_md'>
+                        <Td className='font_dark font_family text_medium text_md col-space'>LN-2025-001</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>Divyansh Garg</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>Business Loan</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>₹500,000</Td>
+                        <Td className='font_light font_family text_medium text_md col-space'>
                             <Text className='rejected status-label'>Rejected</Text>
                         </Td>
-                        <Td className='font_dark font_family text_book text_md'>N/A</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>N/A</Td>
                     </Tr>
                     <Tr>
-                        <Td className='font_dark font_family text_book text_md'>LN-2025-001</Td>
-                        <Td className='font_dark font_family text_book text_md'>Divyansh Garg</Td>
-                        <Td className='font_dark font_family text_book text_md'>Business Loan</Td>
-                        <Td className='font_dark font_family text_book text_md'>₹500,000</Td>
-                        <Td className='font_light font_family text_book text_md'>
+                        <Td className='font_dark font_family text_medium text_md col-space'>LN-2025-001</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>Divyansh Garg</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>Business Loan</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>₹500,000</Td>
+                        <Td className='font_light font_family text_medium text_md col-space'>
                             <Text className='approved status-label'>Approved</Text>
                         </Td>
-                        <Td className='font_dark font_family text_book text_md'>N/A</Td>
+                        <Td className='font_dark font_family text_medium text_md col-space'>N/A</Td>
                     </Tr>
                 </Tbody>
             </Table>

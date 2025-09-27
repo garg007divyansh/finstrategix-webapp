@@ -11,8 +11,8 @@ const NavBar = (props) => {
     <MyDiv>
       <Menu className="my">
         <Flex className="profile_menu">
-          <MenuButton as={Button} leftIcon={<Avatar size='sm' name={'Manmohan Kumar'} />} rightIcon={<Image src={ArrowDownIcon} />}>
-            <Heading as="h1" className="text_semibold text_lg font_family font_dark">Manmohan Kumar</Heading>
+          <MenuButton as={Button} leftIcon={<Avatar size='sm' name={'Admin Kumar'} />} rightIcon={<Image src={ArrowDownIcon} />}>
+            <Heading as="h1" className="text_semibold text_lg font_family font_dark">Admin Kumar</Heading>
           </MenuButton>
         </Flex>
         <MenuList className="dropdown_list">

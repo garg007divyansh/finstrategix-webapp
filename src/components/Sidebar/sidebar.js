@@ -15,6 +15,13 @@ const menus = [
     menuIcon: DashboardIcon,
     menuIconActive: DashboardWhiteIcon,
   },
+  {
+    id: 2,
+    menuName: 'Customers',
+    link: routesNames.CUSTOMERS,
+    menuIcon: DashboardIcon,
+    menuIconActive: DashboardWhiteIcon,
+  },
 ]
 
 export default function Sidebar() {
