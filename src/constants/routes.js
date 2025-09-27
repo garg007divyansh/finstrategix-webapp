@@ -3,5 +3,8 @@ export const DASHBOARD = '/dashboard'
 export const KYC = '/kyc'
 export const CUSTOMERS = '/customers'
 export const LOANAPPLICATIONS = '/loan-applications'
+export const ACCOUNTS = '/accounts'
+export const REPORTS = '/reports'
+export const SETTINGS = '/settings'
 export const PROFILE = '/profile'
 

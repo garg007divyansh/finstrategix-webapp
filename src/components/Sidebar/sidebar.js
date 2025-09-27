@@ -36,6 +36,27 @@ const menus = [
     menuIcon: DashboardIcon,
     menuIconActive: DashboardWhiteIcon,
   },
+  {
+    id: 5,
+    menuName: 'Accounts',
+    link: routesNames.ACCOUNTS,
+    menuIcon: DashboardIcon,
+    menuIconActive: DashboardWhiteIcon,
+  },
+  {
+    id: 6,
+    menuName: 'Reports',
+    link: routesNames.REPORTS,
+    menuIcon: DashboardIcon,
+    menuIconActive: DashboardWhiteIcon,
+  },
+  {
+    id: 7,
+    menuName: 'Settings',
+    link: routesNames.SETTINGS,
+    menuIcon: DashboardIcon,
+    menuIconActive: DashboardWhiteIcon,
+  },
 ]
 
 export default function Sidebar() {
