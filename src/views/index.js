@@ -5,6 +5,7 @@ import Customers from './Customers'
 import LoanApplications from './LoanApplications'
 import Accounts from './Accounts'
 import Reports from './Reports'
+import Settings from './Settings'
 
 export {
   Login,
@@ -14,4 +15,5 @@ export {
   LoanApplications,
   Accounts,
   Reports,
+  Settings,
 }

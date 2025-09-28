@@ -13,6 +13,7 @@ const Customers = lazy(() => import('../../views/Customers'))
 const LoanApplications = lazy(() => import('../../views/LoanApplications'))
 const Accounts = lazy(() => import('../../views/Accounts'))
 const Reports = lazy(() => import('../../views/Reports'))
+const Settings = lazy(() => import('../../views/Settings'))
 
 const AppRoutes = () => {
 
@@ -35,6 +36,7 @@ const AppRoutes = () => {
         <Route path={routesNames.LOANAPPLICATIONS} element={<Suspense fallback={<Loader />}><AppLayout><LoanApplications /></AppLayout></Suspense>} />
         <Route path={routesNames.ACCOUNTS} element={<Suspense fallback={<Loader />}><AppLayout><Accounts /></AppLayout></Suspense>} />
         <Route path={routesNames.REPORTS} element={<Suspense fallback={<Loader />}><AppLayout><Reports /></AppLayout></Suspense>} />
+        <Route path={routesNames.SETTINGS} element={<Suspense fallback={<Loader />}><AppLayout><Settings /></AppLayout></Suspense>} />
       </Route>
     </Routes>
   )
