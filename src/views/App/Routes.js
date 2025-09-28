@@ -11,6 +11,8 @@ const Dashboard = lazy(() => import('../../views/Dashboard'))
 const Kyc = lazy(() => import('../../views/Kyc'))
 const Customers = lazy(() => import('../../views/Customers'))
 const LoanApplications = lazy(() => import('../../views/LoanApplications'))
+const Accounts = lazy(() => import('../../views/Accounts'))
+const Reports = lazy(() => import('../../views/Reports'))
 
 const AppRoutes = () => {
 
@@ -31,6 +33,8 @@ const AppRoutes = () => {
         <Route path={routesNames.KYC} element={<Suspense fallback={<Loader />}><AppLayout><Kyc /></AppLayout></Suspense>} />
         <Route path={routesNames.CUSTOMERS} element={<Suspense fallback={<Loader />}><AppLayout><Customers /></AppLayout></Suspense>} />
         <Route path={routesNames.LOANAPPLICATIONS} element={<Suspense fallback={<Loader />}><AppLayout><LoanApplications /></AppLayout></Suspense>} />
+        <Route path={routesNames.ACCOUNTS} element={<Suspense fallback={<Loader />}><AppLayout><Accounts /></AppLayout></Suspense>} />
+        <Route path={routesNames.REPORTS} element={<Suspense fallback={<Loader />}><AppLayout><Reports /></AppLayout></Suspense>} />
       </Route>
     </Routes>
   )
