@@ -6,6 +6,7 @@ import LoanApplications from './LoanApplications'
 import Accounts from './Accounts'
 import Reports from './Reports'
 import Settings from './Settings'
+import ApplyLoan from './ApplyLoan'
 
 export {
   Login,
@@ -16,4 +17,5 @@ export {
   Accounts,
   Reports,
   Settings,
+  ApplyLoan,
 }
