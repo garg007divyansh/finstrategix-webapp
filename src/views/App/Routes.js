@@ -9,6 +9,7 @@ import { getItem } from '../../utilities/authUtils'
 const Login = lazy(() => import('../../views/Login'))
 const Dashboard = lazy(() => import('../../views/Dashboard'))
 const Kyc = lazy(() => import('../../views/Kyc'))
+const KycStepper = lazy(() => import('../../views/KycStepper'))
 const Customers = lazy(() => import('../../views/Customers'))
 const LoanApplications = lazy(() => import('../../views/LoanApplications'))
 const ApplyLoan = lazy(() => import('../../views/ApplyLoan'))
@@ -33,6 +34,7 @@ const AppRoutes = () => {
       <Route element={<PrivateRoute route={routesNames.LOGIN} />}>
         <Route path={routesNames.DASHBOARD} element={<Suspense fallback={<Loader />}><AppLayout><Dashboard /></AppLayout></Suspense>} />
         <Route path={routesNames.KYC} element={<Suspense fallback={<Loader />}><AppLayout><Kyc /></AppLayout></Suspense>} />
+        <Route path={routesNames.NEWKYC} element={<Suspense fallback={<Loader />}><AppLayout><KycStepper /></AppLayout></Suspense>} />
         <Route path={routesNames.CUSTOMERS} element={<Suspense fallback={<Loader />}><AppLayout><Customers /></AppLayout></Suspense>} />
         <Route path={routesNames.LOANAPPLICATIONS} element={<Suspense fallback={<Loader />}><AppLayout><LoanApplications /></AppLayout></Suspense>} />
         <Route path={routesNames.APPLYLOAN} element={<Suspense fallback={<Loader />}><AppLayout><ApplyLoan /></AppLayout></Suspense>} />

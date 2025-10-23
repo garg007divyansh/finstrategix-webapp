@@ -12,13 +12,22 @@ const MyDiv = styled.div`
     background-position: 50%;
     height: 100vh;
 }
+.right-panel{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .app-logo{
     position: absolute;
     top: 20px;
-    left: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .app-logo img{
-    width: 30%;
+    width: 60%;
+    margin: auto;
 }
 .form-wrapper{
     padding: 0px 160px;

@@ -60,7 +60,8 @@ const Login = (props) => {
   return (
     <MyDiv>
       <Grid className='grid_container main_container'>
-        <GridItem colSpan={6}>
+        <GridItem colSpan={6} className='left-pannel' style={{ backgroundImage: `url(${BannerImage})` }} />
+        <GridItem colSpan={6} className='right-panel'>
           <Link to={routesNames.LOGIN} className='app-logo'>
             <Image className="" src={AppLogo} />
           </Link>
@@ -96,7 +97,6 @@ const Login = (props) => {
             <CustomButton size="md" type="submit" title="Log In" className="btn_theme text_lg text_medium font_family w-100" onClick={handleClick} />
           </Box>
         </GridItem>
-        <GridItem colSpan={6} className='left-pannel' style={{ backgroundImage: `url(${BannerImage})` }} />
       </Grid>
     </MyDiv>
   )

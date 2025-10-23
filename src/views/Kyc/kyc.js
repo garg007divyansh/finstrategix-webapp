@@ -1,10 +1,18 @@
 import React from 'react'
-import { Box, Flex, Grid, GridItem, Heading, Input } from '@chakra-ui/react'
+import { Box, Flex, Grid, GridItem, Heading } from '@chakra-ui/react'
 import { CustomButton, NavBar } from '../../components'
 import MyDiv from './kyc.style'
 import { KycTable } from './components'
+import * as routesNames from '../../constants/routes'
+import { useNavigate } from 'react-router-dom'
 
 const Kyc = (props) => {
+
+  const navigate = useNavigate()
+
+  const handleAddNewRegistration = () => {
+    navigate(routesNames.NEWKYC)
+  }
 
   return (
     <MyDiv>
@@ -19,7 +27,7 @@ const Kyc = (props) => {
       <Box mt={6}>
         <Flex justifyContent='space-between' alignItems='center'>
           <Heading as="h1" className="text_bold font_family text_xxl font_dark">All KYC Registrations</Heading>
-          <CustomButton size="md" type="submit" title="Add New Registration" className="btn_theme text_lg text_medium font_family w-100" />
+          <CustomButton size="md" type="submit" title="Add New Registration" onClick={handleAddNewRegistration} className="btn_theme text_lg text_medium font_family w-100" />
         </Flex>
         <KycTable />
       </Box>
